@@ -6,7 +6,7 @@ from config import YOUTUBE_IMG_URL
 
 async def gen_thumb(videoid):
     if os.path.isfile(f"cache/AnonXMusic{videoid}_v4.png"): 
-        return f"cache/Aviax{videoid}_v4.png"
+        return f"cache/AnonXMusic{videoid}_v4.png"
 
     url = f"https://AnonXMusicapi.tech/thumb?videoid={videoid}"
     
